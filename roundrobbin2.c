@@ -45,10 +45,10 @@ int main()
 		}
 		minat=total;
 		for(i=0;i<n;i++)
-        {
-            if((at[i]>minatp)&&(at[i]<=minat))
+                {
+                   if((at[i]>minatp)&&(at[i]<=minat))
 		        array[++rear]=i;
-        }
+                }
 		if(bt[first]>0)
 		   array[++rear]=first;
 		minatp=minat;
